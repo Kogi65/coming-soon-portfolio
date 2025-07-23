@@ -1,6 +1,4 @@
 import React from 'react';
-import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
-import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
 import "./App.css";
 
@@ -10,31 +8,25 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <a href=".">SAMUEL WACHIRA_</a>
           </div>
           <div className="social">
-            <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
-              <IconFacebook className="icon" />
-            </a>
-            <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
-              <IconTwitter className="icon" />
-            </a>
-            <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Kogi65" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
           </div>
         </div>
         <div className="content">
           <div className="title-holder">
-            <h1>Get ready for the change.</h1>
-            <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
+            <h1>Launching 10th August 2025</h1>
+            <p>Hi there! I'm currently putting the finishing touches on my portfolio.
+              It'll showcase my work and the projects I've been currently doing and what I've done so far.
+            </p>
+            <p>But thanks for stopping by, I can't wait to share it!</p>
           </div>
-          <a href="mailto:user@example.com">
-            <div className="cta">Send us an email</div>
-          </a>
         </div>
         <div className="footer">
-          <span>made by <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">arkn98</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/arkn98/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+          <span>Made with resilience by <a className="underlined" href="https://github.com/Kogi65" target="_blank" rel="noopener noreferrer">Kogi65</a> | <a className="underlined" href="https://app.daily.dev/kogi" title="daily.dev" target="_blank" rel="noopener noreferrer">daily.dev</a></span>
         </div>
       </div>
     );
